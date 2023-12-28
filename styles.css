@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Bluetea";
+    src: url(./fonts/Bluetea.otf);
+}
+
+
+/* Navigation bar styling */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+`
+.sketch-logo {
+    font-family: "Bluetea";
+    color: rgb(244, 65, 184);
+    font-size: 30px;
+    padding: 5px;
+}
+
+.nav-links a{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 20px;
+}
+
+
+#header {
+    padding-left: 15px;
+    margin-top: 150px;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+    min-height: 50px;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Hero Image */
+
+.hero-image {
+    width: 100%;
+
+}
+
+
